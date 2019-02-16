@@ -1,0 +1,168 @@
+    1  ls
+    2  cd D
+    3  cd Documentos
+    4  ls
+    5  cd A00014976
+    6  ls
+    7  git clone https://github.com/ICESI-Training/sd2019a-workshop2.git
+    8  ls
+    9  cd sd2019a-workshop2
+   10  tmux distribuidos
+   11  tmux -new session -s distribuidos
+   12  cd
+   13  tmux -new session -s distribuidos
+   14  tmux new-session -s distribuidos
+   15  ls
+   16  cd Do
+   17  cd Documentos
+   18  ls
+   19  cd A00014976
+   20  l
+   21  ls
+   22  sd2019a-workshop
+   23  sd2019a-workshop2
+   24  clear
+   25  git branch steven
+   26  git checkout steven
+   27  ls
+   28  vim Vagrantfile
+   29  mkdir -p cookbooks/httpd/{recipes,files/default,templates/default}
+   30  tree
+   31  sudo apt-get install tree
+   32  tree
+   33  vi cookbooks/httpd/recipes/default.rb
+   34  vi cookbooks/httpd/recipes/httpd_install.rb
+   35  sudo vi cookbooks/httpd/recipes/httpd_install.rb
+   36  ls
+   37  cd Documentos/A00014976/sd2019a-workshop2/cookbooks/httpd/recipes
+   38  ls
+   39  vim httpd_install.rb
+   40  vim httpd_config.rb
+   41  tree
+   42  cd ..
+   43  cd ....
+   44  cd sd2019a-workshop2
+   45  tree
+   46  vi Vagrantfile
+   47  vagrant up
+   48  vi Vagrantfile
+   49  vagrant up
+   50  vi Vagrantfile
+   51  vagrant up
+   52  curl 127.0.0.1:8080
+   53  ls
+   54  cd cookbooks
+   55  ls
+   56  cd httpd
+   57  ls
+   58  vi recipes
+   59  vim recipes
+   60  ls
+   61  clear
+   62  vagrant up
+   63  vagrant up --provision
+   64* sudo apt-get install openssh
+   65* sudo apt-get install ssh
+   66  cd ....
+   67  ls
+   68  cd sd2019a-workshop2
+   69  tree
+   70  vi cookbooks/httpd/templates/default/index.erb
+   71  vim cookbooks/httpd/templates/default/index.erb
+   72  wget https://raw.githubusercontent.com/ICESI/ds-vagrant/master/centos7/04_chef_files_and_templates/cookbooks/httpd/templates/default/welcome.erb
+   73  mv welcome.erb cookbooks/httpd/templates/default/index.erb
+   74  mv welcome.erb cookbooks/httpd/recipes/httpd_copy_files.erb
+   75  vim cookbooks/httpd/recipes/httpd_copy_files.erb
+   76  vi cookbooks/httpd/recipes/httpd_copy_files.erb 
+   77  vi cookbooks/httpd/recipes/default.rb 
+   78* ls
+   79* cd Documentos
+   80* ls
+   81* cd A00014976
+   82* ls
+   83* sd2019a-workshop2
+   84* vagrant up --provision
+   85* vi cookbooks/httpd/recipes/default.rb 
+   86  vi cookbooks/httpd/recipes/httpd_copy_files.erb 
+   87* cd cookbooks/httpd/recipes
+   88* ls
+   89* cd ..
+   90* ls
+   91* cd templates
+   92* ls
+   93* cd default
+   94* ls
+   95* vim index.erb
+   96* vagrant up --provision
+   97* ls
+   98* cd ..
+   99* ls
+  100* cd ..
+  101* cd recipes
+  102* ls
+  103* cp httpd_copy_files.erb httpd_copy_files.rb
+  104* rm httpd_copy_files.erb
+  105* cd ..
+  106* vagrant up --provision
+  107* mkdir cookbooks/httpd/attributes
+  108* vim cookbooks/httpd/attributes/default.rb
+  109  cd
+  110  irb
+  111  clear
+  112* vim cookbooks/httpd/recipes/httpd_copy_files.rb
+  113* vim cookbooks/httpd/attributes/default.rb
+  114* vagrant up --provision
+  115* http 127.0.0.1:8080
+  116* sudo apt install httpie
+  117* http 127.0.0.1:8080
+  118* gaa
+  119* git commit -m "hello from Distribuidos fourth week"
+  120* git push origin steven
+  121  ls
+  122  cd Documentos
+  123  ls
+  124  cd A00
+  125  cd A00014976
+  126  ls
+  127  git clone https://github.com/StevenMontealegre/sd2019a-workshop2.git
+  128  ls
+  129  cd ..
+  130  mkdir temp
+  131  ls
+  132  cd temp
+  133  https://github.com/StevenMontealegre/sd2019a-workshop2.git
+  134  cd
+  135  ls
+  136  git clone https://github.com/StevenMontealegre/sd2019a-workshop2.git
+  137  ls
+  138  cp -r Documentos/A00014976/sd2019a-workshop2 sd2019a-workshop2
+  139  ls
+  140  cd sd2019a-workshop2
+  141  ls
+  142  cd sd2019a-workshop2
+  143  ls
+  144  cd ..
+  145  ls
+  146  rm -rf sd2019a-workshop2
+  147  ls
+  148  cd ..
+  149  ls
+  150  cd Documentos
+  151  ls
+  152  cd ..
+  153  mv  Documentos/A00014976/sd2019a-workshop2 .
+  154  mv -rf Documentos/A00014976/sd2019a-workshop2 .
+  155  v --help
+  156  mv --help
+  157  mv -r Documentos/A00014976/sd2019a-workshop2 .
+  158  ls
+  159  cd Documentos/A00014976/ls
+  160  cd Documentos/A00014976/
+  161  ls
+  162  cd sd2019a-workshop2
+  163  ls
+  164  vi .git/config
+  165  gaa
+  166  git commit -m "Submit workshop2"
+  167  ls
+  168  git push origin steven

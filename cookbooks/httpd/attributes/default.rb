@@ -1,1 +1,1 @@
-node.default[:name] = 'pedro'
+node.default[:name] = 'juan'
